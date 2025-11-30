@@ -13,7 +13,7 @@ app.use(cors());
 
 const admin = require("firebase-admin");
 
-const serviceAccount = require(process.env.FIREBASE_ADMINFILE);
+const serviceAccount = require("./FirebaseAdminFile/e-comarce-2ed9f-firebase-adminsdk-fbsvc-389fbc968c.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
