@@ -11,7 +11,7 @@ admin.initializeApp({
 
 
 
-const uid = 'j7j0S0nLrIfwjFPgLvB6nbQLwsT2';
+const uid = 'TaMRR3VIuRgaA8UhN1L3ChDSP562';
 
 getAuth()
   .setCustomUserClaims(uid, { admin: true })
